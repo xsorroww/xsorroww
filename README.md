@@ -10,4 +10,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=xsorroww&icon=0&color=6)](https://visitcount.itsvg.in)
+![](https://komarev.com/ghpvc/?username=xsorroww&style=plastic&color=blueviolet)
