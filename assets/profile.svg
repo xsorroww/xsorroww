@@ -1,14 +1,15 @@
 <svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
-    </linearGradient>
+  <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+  </linearGradient>
 
-    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
-    </linearGradient>
+  <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+  </linearGradient>
+
 
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
@@ -58,7 +59,7 @@
 
   <circle cx="100" cy="100" r="50" fill="none" stroke="url(#glowGradient)" stroke-width="2"/>
 
-  <text x="180" y="90" class="title glow-text">Sorrow</text>
+  <text x="180" y="90" class="title glow-text" style="fill: url(#glowGradient);">Sorrow</text>
 
   <line x1="180" y1="105" x2="380" y2="105" stroke="url(#glowGradient)" stroke-width="3" filter="url(#softGlow)"/>
 
@@ -78,15 +79,20 @@
     <text class="badge-text" x="355" y="21" text-anchor="middle">go</text>
 
     <rect class="badge" x="390" y="0" width="65" height="32" rx="16"/>
-    <text class="badge-text" x="422.5" y="21" text-anchor="middle">rust</text>
+    <text class="badge-text" x="422.5" y="21" text-anchor="middle">vite</text>
 
     <rect class="badge" x="465" y="0" width="90" height="32" rx="16"/>
     <text class="badge-text" x="510" y="21" text-anchor="middle">node.js</text>
   </g>
 
+<text x="50" y="290" class="title glow-text" style="font-size:20px; fill:url(#glowGradient)">Currently Learning</text>
 
-  <path d="M 20 20 L 40 20 M 20 20 L 20 40" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
-  <path d="M 780 20 L 760 20 M 780 20 L 780 40" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
-  <path d="M 20 360 L 40 360 M 20 360 L 20 340" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
-  <path d="M 780 360 L 760 360 M 780 360 L 780 340" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
-</svg>
+<g transform="translate(50, 310)">
+  <rect class="badge" x="0" y="0" width="90" height="32" rx="16" stroke="url(#glowGradient)"/>
+  <text class="badge-text" x="45" y="21" text-anchor="middle" fill="url(#glowGradient)">Rust</text>
+</g>
+
+<path d="M 20 20 L 40 20 M 20 20 L 20 40" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
+<path d="M 780 20 L 760 20 M 780 20 L 780 40" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+<path d="M 20 360 L 40 360 M 20 360 L 20 340" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+<path d="M 780 360 L 760 360 M 780 360 L 780 340" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
