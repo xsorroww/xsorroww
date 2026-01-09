@@ -92,7 +92,8 @@
   <text class="badge-text" x="45" y="21" text-anchor="middle" fill="url(#glowGradient)">Rust</text>
 </g>
 
-<path d="M 20 20 L 40 20 M 20 20 L 20 40" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
-<path d="M 780 20 L 760 20 M 780 20 L 780 40" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
-<path d="M 20 360 L 40 360 M 20 360 L 20 340" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
-<path d="M 780 360 L 760 360 M 780 360 L 780 340" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
+  <path d="M 20 20 L 40 20 M 20 20 L 20 40" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
+  <path d="M 780 20 L 760 20 M 780 20 L 780 40" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  <path d="M 20 360 L 40 360 M 20 360 L 20 340" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  <path d="M 780 360 L 760 360 M 780 360 L 780 340" stroke="#a855f7" stroke-width="2" opacity="0.5"/>
+</svg>
